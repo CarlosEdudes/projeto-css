@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    background-color: #ddd;
+}
+
+.hero{
+    background-image: url(imagens/bg-3.jpg);
+    height: 450px;
+    background-position: right center;
+    background-size: cover;
+    border-top: solid 1px transparent;
+}
+
+.hero nav ul {
+    text-align: right;
+    margin-right: 20px;
+    margin-left: 8px;
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: solid 2px white;
+    padding: 5px;
+    margin-left: 7px;
+    letter-spacing: 1px;
+}
+
+.hero nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero nav li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 130px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.733);
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.342);
+    border-bottom: solid 3px white;
+    padding: 10px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    margin-top: 15px;
+    padding: 15px;
+    overflow: auto;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card p {
+    background-color: #393535;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.content-section h2 {
+    background-color: rgba(216, 216, 216, 0.39);
+    border-bottom: solid 4px rgba(190, 190, 190, 0.466);
+    margin-top: 2px;
+}
+
+footer {
+    color: white;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #808080 ;
+    height: 25px;
+}
+
